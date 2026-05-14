@@ -1,7 +1,7 @@
 # gamemodedatapack
 a Datapack for changing oneself gamemode withoutt any permission
 
-A lightweight utility datapack for Java Edition 1.21.2 that lets any player authenticate with a password via /trigger, then freely switch between all four gamemodes without needing OP.
+A lightweight utility datapack for Java Edition 1.21+ that lets any player authenticate with a password via /trigger, then freely switch between all four gamemodes without needing OP.
 And also tracks and displays the number of in-game days elapsed since datapack added. For deception
 
 # How to use
