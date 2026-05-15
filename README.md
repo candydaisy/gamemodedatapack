@@ -19,7 +19,7 @@ Every tick, the datapack runs:
 scoreboard players enable @a test
 execute as @a if score @s gm_authed matches 1 run scoreboard players enable @s gm_switch
 ```
-`trigger` objectives are special — players can only fire them if they've been explicitly *enabled* for that player. So `test` gets enabled for everyone every tick, meaning anyone can attempt the password at any time. `gm_switch` only gets enabled for players whose `gm_authed` score is `1`, so unauthenticated players can't fire it at all.
+`trigger` objectives are special, players can only fire them if they've been explicitly *enabled* for that player. So `test` gets enabled for everyone every tick, meaning anyone can attempt the password at any time. `gm_switch` only gets enabled for players whose `gm_authed` score is `1`, so unauthenticated players can't fire it at all.
 
 Once authenticated, you type:
 ```
