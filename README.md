@@ -12,7 +12,7 @@ Any player on the server can type:
 ```
 /trigger test set 1031
 ```
-`test` is a `trigger`-type scoreboard objective, which means non-OP players can use it on themselves. The tick function runs every tick and checks if your `test` score hit exactly `1031`. If it does, it calls `auth_success` which sets your `gm_authed` score to `1` and resets `gm_auth` back to `0`. If you typed any other number, the score just gets silently reset to `0` — no error, no feedback.
+`test` is a `trigger`-type scoreboard objective, which means non-OP players can use it on themselves. The tick function runs every tick and checks if your `test` score hit exactly `1031`. If it does, it calls `auth_success` which sets your `gm_authed` score to `1` and resets `gm_auth` back to `0`. If you typed any other number, the score just gets reset to `0`
 
 Every tick, the datapack runs:
 ```mcfunction
